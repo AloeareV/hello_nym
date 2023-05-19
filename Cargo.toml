@@ -1,0 +1,11 @@
+[package]
+name = "hello_nym"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nym-sdk = { git = "https://github.com/nymtech/nym" }
+tokio = "1.28.1"
+nym-bin-common = { git = "https://github.com/nymtech/nym" }
